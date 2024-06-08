@@ -1,0 +1,17 @@
+
+          while(i<flights.length){
+            console.log(flights[i].name);
+            i++;
+          }
+
+          //do while
+          var i=0;
+          do{
+            console.log(flights[i].duration);
+            i++;
+          }while(i>flights.length);
+
+          //for
+          for(var x=0; x<flights.length; i++){
+            console.log(flights[x].name);
+          }
